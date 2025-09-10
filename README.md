@@ -23,9 +23,9 @@ This repository contains a chatbot that can be used as a starting point for buil
 
 * Prompt/response pipeline using an LLM (local or hosted)
 * Session/context handling (short-term conversation memory)
-* Example chat UI (web or Streamlit)
-* Rate-limiting / request validation hooks (optional)
-* Logging and simple analytics (console / file)
+* Example chat UI (Streamlit)
+
+
 
 ---
 
@@ -41,7 +41,7 @@ This repository contains a chatbot that can be used as a starting point for buil
 ## Prerequisites
 
 * Git
-* Python 3.9+ (if using Python backend) or Node.js 16+ (if using Node backend)
+* Python 3.9+ (if using Python backend) 
 
 
 ---
@@ -54,9 +54,8 @@ git clone https://github.com/your-username/your-chatbot-repo.git
 cd your-chatbot-repo
 
 # create virtualenv and install
-python -m venv .venv
-source .venv/bin/activate   # Linux / macOS
-.\.venv\Scripts\activate  # Windows
+python -m venv venv
+
 
 pip install -r requirements.txt
 ```
